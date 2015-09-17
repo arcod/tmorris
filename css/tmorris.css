@@ -35,6 +35,7 @@ nav a:hover{
 }
 
 .background{
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 	position:relative;
 	width:435px;
 	background: url(../images/tmorrisBW.jpg);
