@@ -6,9 +6,9 @@ body{
 
 nav{
 
-height:100px;
+height:125px;
 padding-bottom:8px;
-line-height:100px;
+line-height:125px;
 }
 
 nav a{
@@ -17,7 +17,7 @@ nav a{
 	line-height:normal;
     font-size: 16px;
     text-decoration: none;
-    color: #6C798D;
+    color: #7E4C09;
 
     padding: 0px 5px;
     margin:0px 20px;
