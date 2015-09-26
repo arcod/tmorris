@@ -5,21 +5,79 @@
   <meta charset="utf-8">
   <title>Tom Morrison</title>
   <link rel="stylesheet" href="css/tmorris.css">
+ <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> 
 </head>
 
 <body>
 	<nav>
-		<a href="/shows.html">SPLASH</a> 
-  		<a href="/bio.html">BIO</a> 
-  		<a href="/teaching.html">TEACHING</a>
-  		<a href="/shows.html">SHOWS</a>  
- 		<a href="/contact.html">CONTACT</a>
+		<a class="splash" href="#splash">SPLASH</a> 
+  		<a href="#bio">BIO</a> 
+  		<a href="#media">MEDIA</a> 
+  		<a href="#teaching">TEACHING</a>
+  		<a href="#shows">SHOWS</a>  
+ 		<a href="#contact">CONTACT</a>
 	</nav>
-	<div class="background">
+	<div id="splash" class="splash page">
 		<span></span>
-		<h1 id="firstName">TOM</h1>
-		<h1 id="lastName">MORRISON</h1>
+		<h1>TOM MORRISON</h1>
 		<h2>Pianist | Organist | Teacher</h2>
+		<h3>scroll for more</h2>
+	</div>
+	<div id="bio"  class="bio page">
+		<div class="content">
+			<h1>bio</h1>
+			<img src="images/tmorrisBio">
+			<div class="text_holder">
+			<p>Thomas Morrison is a musician and teacher based in Portland, Oregon. He offers quality piano instruction in classical, jazz, blues, folk, rock/pop for students ages 5 to adult.</p>
+
+<p>Tom studied Classical piano beginning at an early age, and earned multiple honors as a young performer at the local and statewide level. Equipped with this foundation in the Classical tradition, Tom’s musical interests subsequently broadened to include Jazz, Rock, and Soul music. Along the way, he developed a deep fascination for other keyboard instruments such as the electric organ and the synthesizer. In 2010, Tom graduated from Reed College with a Bachelor’s of Music degree and began teaching professionally in the Portland area. As a professional keyboardist/bassist, Tom routinely performs locally and on tour throughout the West and the East coast. He has maintained his independent teaching practice steadily since 2012.</p>
+			</div>
+		</div>
+	</div>
+	<div id="media" class="media page">
+		<div class="content">
+			<h1>media</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/3ATgx48AXjQ" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+		<div id="teaching" class="teaching page">
+		<div class="content">
+			<h1>teaching</h1>
+			<div class="text_holder">
+			<p>Tom’s professional playing experience allows him to deliver practical knowledge and skills that apply to our modern musical world. His diverse musical background informs a curriculum that emphasizes music’s early fundamentals, while adapting to each individual student’s blossoming interests. </p>
+			<ul>
+				<li>Read Music</li>
+				<li>Develop Healthy Technique</li>
+				<li>Train your Ear</li>
+				<li>Improvise</li>
+				<li>Discover</li>
+			</ul>
+			</div>
+		</div>
+	</div>
+
+	</div>
+		<div id="shows" class="shows page">
+		<div class="content">
+			<h1>shows</h1>
+			<div class="text_holder">
+				<p>Tom plays regularly with the Scott Pemberton Trio</p>
+				<p>Upcoming Shows with Scott</p>
+				<ul>
+				<li>Thursday, 10/5 . The Goodfoot . Portland, OR.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		</div>
+		<div id="contact" class="contact page">
+		<div class="content">
+			<h1>contact</h1>
+			<p>555.132.1532</p>
+			<p>tommorrison@gmail.com</p>
+		</div>
 	</div>
 </body>
+
+<script src="js/tmorris.js"></script>
 </html>
