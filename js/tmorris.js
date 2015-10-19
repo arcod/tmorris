@@ -21,3 +21,8 @@ $(window).on('scroll', function() {
 	var st = $(this).scrollTop() - height/2;
     nav.css({ 'opacity' : (0 + st/height*2) });
 });
+
+
+$(function() {
+$('iframe')[0].contentDocument.location = $('iframe')[0].src;
+});
